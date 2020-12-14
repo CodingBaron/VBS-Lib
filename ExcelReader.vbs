@@ -2,7 +2,6 @@ Option Explicit
 
 Function ReadExcel( myXlsFile, mySheet, my1stCell, myLastCell, blnHeader )
 ' Function :  ReadExcel
-' Version  :  3.00
 ' This function reads data from an Excel sheet without using MS-Office
 '
 ' Arguments:
@@ -17,8 +16,6 @@ Function ReadExcel( myXlsFile, mySheet, my1stCell, myLastCell, blnHeader )
 ' array; the first dimension holds the columns, the second dimension holds
 ' the rows read from the Excel sheet.
 '
-' Written by Rob van der Woude
-' http://www.robvanderwoude.com
     Dim arrData( ), i, j
     Dim objExcel, objRS
     Dim strHeader, strRange
